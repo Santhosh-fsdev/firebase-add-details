@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase-example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <!--the form needed to submit data to the firebase-->
+        <form id="form">
+             <!--div for displaying content after submitting-->
+            <div id="wrap">
+
+            </div>
+                <div class="msg">
+                    Information Submitted..
+                </div>
+            <div>
+                <label for="name"> Username:</label>
+                    <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="pass"> Password:</label>
+                    <input type="password" id="pass" name="pass" required minlength="8">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div>
+                <button type="submit">
+                    Sign-up
+                </button>
+
+            </div>
+        </form>
+<!--firebase script link-->
+<script src="xxxxxxxxxxxxxxxxxx"></script>
+<script src="main.js"></script>
+</body>
+</html>

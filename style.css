@@ -1,0 +1,73 @@
+/*global styles*/
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    text-align: center;
+    padding-top: 5em;
+   background: #ccc;
+}
+image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#form{
+background:#40E0D0;
+ display: inline-block;
+ width: 70%;
+ height: 530px;
+ text-align: center;
+ font-weight: 700;
+}
+#wrap{
+    padding-top:4em;
+    height: 200px;
+    background: url('signup.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#form div{
+    padding-top:1em;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+
+    
+}
+#form div input{
+ border: 1px darkgrey solid;
+ outline:none;
+ border-radius:5px;
+}
+#form div input:focus{
+border:1px solid #000;
+}
+.msg{
+    font-weight: 700;
+    text-align: center;
+  padding:10px;
+  background:teal;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+button{
+    font-size:20px;
+    width: auto;
+    border: none;
+    background:none;
+    opacity: 0.8;
+    display: flex;
+    transition: 3s;
+    -webkit-transition: 0.3;
+}
+button:hover{
+    background:none;
+    border: none;
+    color:#fff;
+    opacity: 0.5;
+    cursor: pointer;
+}
